@@ -1,0 +1,258 @@
+body {
+    font-family: 'Raleway';font-size: 18px;
+    color:#222;
+}
+
+
+header {
+	padding: 28px 35px 0 35px;
+}
+
+#block-block-7 {
+
+	margin-top: -20px;
+}
+
+h1.header__site-name {
+  font-size: 3.6em;
+}
+
+a.header__site-link:hover {
+	text-decoration: none;
+}
+
+.header__logo {
+	width: 100px;
+}
+
+.layout-swap {
+  padding-top: 0px;
+}
+
+.header__name-and-slogan {
+  margin: 16px 26px 17px 28px;
+}
+
+.header__site-link:visited,
+.header__site-link:link {
+	tex t-decoration: underline;
+}
+
+.header__site-slogan {
+	margin: 15px 0 0 52px;
+    font-size: 2em;
+    color: #0275ae;
+    font-weight: 500;
+}
+
+.front main h1{
+	display: none;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 0.5em 0;
+}
+
+ul {
+	margin: 0.5em 0;
+}
+
+#block-block-6 {
+  float: right;
+  margin-top: -120px;
+  text-align: right;
+
+}
+
+.view-news .views_slideshow_cycle_main .views-field-title a {
+	text-decoration: none;
+	text-transform: uppercase;
+	right: 30px;
+	bottom: 30px;
+	font-size: 40px;
+	color: #fff;
+	font-weight: bold;
+	position: absolute;
+	z-index: 800;
+	background: rgba(0,0,0,0.6);
+    line-height: 1em;
+    padding: 10px;
+}
+
+.view-news .views_slideshow_cycle_main .views-field-title a::after {
+  content: " ▶";
+}
+
+.view-news .views-field-field-image {
+	border: 1px solid #888;
+	z-index: 700;
+	position: relative;
+}
+
+.view-news .views-slideshow-pager-fields .views_slideshow_pager_field_item a {
+	display: block;
+	text-indent: -9999px;
+}
+
+.view-news .views-slideshow-pager-fields .views_slideshow_pager_field_item .views-content-title {
+	float: left;
+	width: 50px;
+}
+
+.view-news .views-slideshow-pager-fields .views_slideshow_pager_field_item.views-row-last .views-content-title {
+  width: 10px;
+}
+
+.view-news .views-slideshow-pager-fields {
+	width: 270px;
+	margin: 19px 0 0 40%;
+}
+
+.view-news .views-slideshow-pager-fields .views_slideshow_pager_field_item .views-content-title::before {
+  content: "";
+  border-radius: 50%;
+  behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+  width: 14px;
+  height: 14px;
+  background: #0275ae;
+
+  display: block;
+  cursor: pointer;
+  box-shadow: 0px 0px 37px #333;
+}
+
+.view-news .views-field-field-image,
+.view-activities .views-field-field-illustration img,
+.paragraphs-item-image-and-text img,
+.node-article .field-name-field-image img {
+
+	box-shadow: 0px 0px 37px #333;
+}
+
+.paragraphs-item-image-and-text .field-name-field-image,
+.node-article .field-name-field-image {
+  text-align: center;
+}
+
+.view-news .views-field-field-image {
+  font-size: 0;
+  line-height: 0;
+  
+}
+
+
+.view-flats {
+	overflow: hidden;
+}
+
+.view-flats .views-row {
+  float: left;
+  margin: 0 86px;
+}
+
+.view-flats .views-field-title a {
+	text-decoration: none;
+}
+
+.view-flats .views-field-title h3 {
+	margin: 0;
+}
+
+
+.view-activities .views-row {
+	clear: both;
+}
+
+.view-activities .views-field-field-illustration {
+	float: left;
+	margin-right: 45px;
+	height: 210px;
+}
+
+
+
+
+
+
+
+.divider {
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  margin-top:-30px;
+  left: 50%;
+  background: url(../images/wave.png);
+  height: 100px;
+  background-size: 100% 100px;
+  text-indent: -9999px;
+  opacity: 0.8;
+  border: none;
+  transform: rotate(-1deg);
+}
+
+.node-11 strong {
+  font-size: 1.4em;
+}
+
+#block-views-activities-block-1 h2 {
+  margin: 0 0 1em 0;
+}
+
+footer #block-block-3{
+  width: 100vw;
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+}
+
+footer iframe {
+	width: 100%;
+}
+
+#block-block-4 p {
+  text-align: center;
+  
+  font-size: 1.6em;
+}
+
+#block-block-4 a,
+#block-block-6 a {
+	color: #0c6fac;
+	text-decoration: none;
+
+}
+
+.node-flat .field-name-field-images {
+	width: 430px;
+	float: left;
+}
+
+.node-flat .field-name-field-images .field-item {
+	float: left;
+	margin: 5px;
+}
+
+.node-flat .field-name-field-images .field-item {
+  font-size: 0;
+  line-height: 0;
+}
+
+.node-flat .field ul {
+	margin-left: 416px;
+}
+
+#imageData {
+	display:none;
+}
+
+
+
+
+
+
