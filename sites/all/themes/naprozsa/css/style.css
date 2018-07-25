@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin: 0.5em 0;
 }
 
@@ -135,6 +135,19 @@ ul {
 	box-shadow: 0px 0px 37px #333;
 }
 
+.field-name-field-facilities,
+.field-name-field-technical-description,
+.field-name-field-price,
+.field-name-field-notes,
+#map-anchor {
+  
+}
+
+#map-anchor {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
 .paragraphs-item-image-and-text .field-name-field-image,
 .node-article .field-name-field-image {
   text-align: center;
@@ -154,6 +167,8 @@ ul {
 .view-flats .views-row {
   float: left;
   margin: 0 86px;
+  width: 18%;
+  text-align: center;
 }
 
 .view-flats .views-field-title a {
@@ -229,7 +244,7 @@ footer iframe {
 }
 
 .node-flat .field-name-field-images {
-	width: 430px;
+  width: 100%;
 	float: left;
 }
 
@@ -244,12 +259,58 @@ footer iframe {
 }
 
 .node-flat .field ul {
-	margin-left: 416px;
+	m argin-left: 416px;
+  f loat: left;
 }
 
 #imageData {
 	display:none;
 }
+
+#arrow-1, #arrow-2, #arrow-3, #arrow-4 {
+  position:absolute;
+  top:50px;
+  left:50px;
+  width: 60px;
+  height: 60px;
+}
+
+#arrow-2 {
+  transform: rotate(90deg);
+}
+
+#arrow-3 {
+  transform: rotate(180deg);
+}
+
+#arrow-4 {
+  transform: rotate(270deg);
+}
+
+#map {
+  position: relative;
+  background: url(../images/map.jpg);
+  background-size: 100%;
+  width:100%;
+  height: 910px;
+  clear: both;
+}
+
+.op {
+  background: rgba(255,255,255,0.8);
+  position: absolute;
+}
+
+.node-25 .op.specop {
+    width:90px;
+    height: 25px;
+    top:365px;
+    left:711px;
+    transform: rotate(121deg);
+}
+
+
+
 
 
 
