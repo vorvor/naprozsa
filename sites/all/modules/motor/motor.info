@@ -1,0 +1,4 @@
+name = Motor
+description = Common helper functions.
+core = 7.x
+
