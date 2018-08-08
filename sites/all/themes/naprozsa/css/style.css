@@ -350,6 +350,10 @@ font-size: 1.5rem;
     padding: 20px 0;
   }
 
+  .header__logo {
+    width: 15%;
+  }
+
   h1.header__site-name {
     font-size: 1.8em;
     line-height: 1em;
