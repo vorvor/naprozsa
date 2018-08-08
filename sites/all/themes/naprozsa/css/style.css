@@ -346,12 +346,16 @@ font-size: 1.5rem;
     width: 100%;
   }
 
+  h2 {
+    font-size: 2em;
+  }
+
   header {
-    padding: 20px 0;
+    padding: 20px 0 0 0;
   }
 
   .header__logo {
-    width: 15%;
+    width: 21%;
   }
 
   h1.header__site-name {
@@ -380,11 +384,14 @@ font-size: 1.5rem;
     margin: 0;
     text-align: left;
     font-size: 0.8em;
+    padding-top:1px;
+    text-align: center;
   }
 
   .divider {
     background-size: 100% 50px;
     background-repeat: no-repeat;
+    height: 44px;
   }
 
   .view-news .views_slideshow_cycle_main .views-field-title a {
@@ -401,7 +408,9 @@ font-size: 1.5rem;
     width: 44%;
   }
 
-
+  .node-flat .field-name-field-images .field-item {
+    width: 30%;
+  }
 
 }
 
