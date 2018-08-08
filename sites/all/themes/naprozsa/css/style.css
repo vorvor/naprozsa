@@ -339,7 +339,67 @@ font-size: 1.5rem;
     transform: rotate(121deg);
 }
 
+@media screen and (max-width: 560px) {
 
+  .layout-center {
+    max-width: none;
+    width: 100%;
+  }
+
+  header {
+    padding: 20px 0;
+  }
+
+  h1.header__site-name {
+    font-size: 1.8em;
+    line-height: 1em;
+  }
+
+  .header__name-and-slogan {
+    width: 70%;
+    margin: 0;
+  }
+
+  .header__site-slogan {
+    margin: 0;
+    font-size: 1em;
+  }
+
+  .header__region {
+    float: none;
+    clear: both;
+    width: 100%;
+  }
+
+  #block-block-6 {
+    float: none;
+    margin: 0;
+    text-align: left;
+    font-size: 0.8em;
+  }
+
+  .divider {
+    background-size: 100% 50px;
+    background-repeat: no-repeat;
+  }
+
+  .view-news .views_slideshow_cycle_main .views-field-title a {
+    font-size: 18px;
+  }
+
+  .view-news .views-slideshow-pager-fields {
+    margin-left: 25%;
+  }
+
+  .view-flats .views-row {
+    float: left;
+    margin: 0px 6% 30px 0;
+    width: 44%;
+  }
+
+
+
+}
 
 
 
